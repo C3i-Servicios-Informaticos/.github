@@ -21,10 +21,11 @@ Desarrollamos y mantenemos software a medida para nuestros clientes y para nuest
 
 | Capa | Tecnologías |
 |---|---|
-| Frontend | TypeScript · React · Next.js · Vue · Tailwind CSS |
-| Backend | Node.js · NestJS · Laravel · PHP · Prisma |
-| Datos e infra | PostgreSQL · Redis · BullMQ · Docker |
-| Plataformas | Odoo |
+| Frontend | Nuxt · Vue · Next.js · React · Tailwind CSS |
+| Backend | Node.js · NestJS · Laravel · PHP · Python · PowerShell |
+| Datos e infra | PostgreSQL · Prisma · Drizzle · Redis · BullMQ · Docker · Dokploy · Proxmox VE · Proxmox Backup Server |
+| Plataformas y ERP | Dolibarr · GLPI · WooCommerce (headless) · Shopify · Odoo (integración) |
+| Pagos y correo | Stripe · Resend |
 
 ---
 
