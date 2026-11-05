@@ -1,0 +1,23 @@
+name: Borrar rama mergeada
+
+# Sustituye al ajuste "borrar rama al mergear" de GitHub, que también borraría dev.
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  contents: write
+
+jobs:
+  borrar:
+    if: >-
+      github.event.pull_request.merged &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      !contains(fromJSON('["main", "dev", "staging"]'), github.event.pull_request.head.ref)
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh api -X DELETE "repos/$REPO/git/refs/heads/$RAMA" || echo "La rama $RAMA ya no existe"
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RAMA: ${{ github.event.pull_request.head.ref }}
