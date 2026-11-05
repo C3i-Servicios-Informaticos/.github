@@ -1,6 +1,6 @@
 # C3i Servicios Informáticos
 
-> Partners tecnológicos para empresas de la Región de Murcia desde hace más de 15 años.
+> Partners tecnológicos para empresas de la Región de Murcia.
 
 Desarrollamos y mantenemos software a medida para nuestros clientes y para nuestra propia operativa interna. En este espacio encontrarás proyectos propios, herramientas internas y recursos de desarrollo.
 
@@ -13,7 +13,6 @@ Desarrollamos y mantenemos software a medida para nuestros clientes y para nuest
 - **Virtualización y teletrabajo** — soluciones remotas para equipos
 - **Ciberseguridad** — protección y auditoría
 - **Digitalización** — automatización de procesos y facturación electrónica
-- **Kit Digital** — agentes digitalizadores oficiales
 
 ---
 
@@ -21,10 +20,11 @@ Desarrollamos y mantenemos software a medida para nuestros clientes y para nuest
 
 | Capa | Tecnologías |
 |---|---|
-| Frontend | TypeScript · React · Next.js · Vue · Tailwind CSS |
-| Backend | Node.js · NestJS · Laravel · PHP · Prisma |
-| Datos e infra | PostgreSQL · Redis · BullMQ · Docker |
-| Plataformas | Odoo |
+| Frontend | Nuxt · Vue · Next.js · React · Tailwind CSS |
+| Backend | Node.js · NestJS · Laravel · PHP · Python · PowerShell |
+| Datos e infra | PostgreSQL · Prisma · Drizzle · Redis · BullMQ · Docker · Dokploy · Proxmox VE · Proxmox Backup Server |
+| Plataformas y ERP | Dolibarr · GLPI · WooCommerce (headless) · Shopify · Odoo (integración) |
+| Pagos y correo | Stripe · Resend |
 
 ---
 
