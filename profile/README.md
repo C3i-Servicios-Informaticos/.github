@@ -1,6 +1,6 @@
 # C3i Servicios Informáticos
 
-> Partners tecnológicos para empresas de la Región de Murcia desde hace más de 15 años.
+> Partners tecnológicos para empresas de la Región de Murcia.
 
 Desarrollamos y mantenemos software a medida para nuestros clientes y para nuestra propia operativa interna. En este espacio encontrarás proyectos propios, herramientas internas y recursos de desarrollo.
 
@@ -13,7 +13,6 @@ Desarrollamos y mantenemos software a medida para nuestros clientes y para nuest
 - **Virtualización y teletrabajo** — soluciones remotas para equipos
 - **Ciberseguridad** — protección y auditoría
 - **Digitalización** — automatización de procesos y facturación electrónica
-- **Kit Digital** — agentes digitalizadores oficiales
 
 ---
 
